@@ -1,0 +1,2 @@
+demo01_ws:plumbing_test:plumbingg_my
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/dream/dream/dream_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/dream/dream/dream_ws/install_isolated

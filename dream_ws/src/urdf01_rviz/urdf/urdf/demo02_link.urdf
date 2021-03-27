@@ -1,0 +1,21 @@
+<robot name="mycar">
+    <link name="base_link">
+        <visual>
+            <!-- 1.形状 -->
+            <geometry>
+                <!-- <box size="0.5 0.2 0.1" /> -->
+                <!-- <cylinder radius="0.2" length="1"/> -->
+                <!-- <sphere radius="1"/> -->
+
+                <mesh filename="package://urdf01_rviz/meshes/autolabor_mini.stl"/>
+            </geometry>
+            <!-- 2.偏移量与倾斜弧度 -->
+            <origin xyz="0 0 0" rpy="1.57 0 1.57"/>
+
+            <!-- 颜色 -->
+            <material name="car_color">
+                <color rgba="0 0.5 1 0.3"/>
+            </material>
+        </visual>
+    </link>
+</robot>

@@ -1,0 +1,8 @@
+prefix=/home/dream/dream/dream_ws/install_isolated
+
+Name: plumbing_test
+Description: Description of plumbing_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

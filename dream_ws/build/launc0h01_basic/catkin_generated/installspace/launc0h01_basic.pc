@@ -1,0 +1,8 @@
+prefix=/home/dream/dream/dream_ws/install
+
+Name: launc0h01_basic
+Description: Description of launc0h01_basic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
