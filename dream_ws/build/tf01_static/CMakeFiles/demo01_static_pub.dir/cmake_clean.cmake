@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo01_static_pub.dir/src/demo01_static_pub.cpp.o"
-  "/home/dream/dream/dream_ws/devel/lib/tf01_static/demo01_static_pub.pdb"
-  "/home/dream/dream/dream_ws/devel/lib/tf01_static/demo01_static_pub"
+  "/home/dream/ros_study/dream_ws/devel/lib/tf01_static/demo01_static_pub.pdb"
+  "/home/dream/ros_study/dream_ws/devel/lib/tf01_static/demo01_static_pub"
 )
 
 # Per-language clean rules from dependency scanning.

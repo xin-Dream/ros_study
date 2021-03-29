@@ -1,8 +1,8 @@
-# Install script for directory: /home/dream/dream/dream_ws/src/plumbing_test
+# Install script for directory: /home/dream/ros_study/dream_ws/src/plumbing_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dream/dream/dream_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dream/ros_study/dream_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/dream/dream_ws/build/plumbing_test/catkin_generated/installspace/plumbing_test.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/ros_study/dream_ws/build/plumbing_test/catkin_generated/installspace/plumbing_test.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_test/cmake" TYPE FILE FILES
-    "/home/dream/dream/dream_ws/build/plumbing_test/catkin_generated/installspace/plumbing_testConfig.cmake"
-    "/home/dream/dream/dream_ws/build/plumbing_test/catkin_generated/installspace/plumbing_testConfig-version.cmake"
+    "/home/dream/ros_study/dream_ws/build/plumbing_test/catkin_generated/installspace/plumbing_testConfig.cmake"
+    "/home/dream/ros_study/dream_ws/build/plumbing_test/catkin_generated/installspace/plumbing_testConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_test" TYPE FILE FILES "/home/dream/dream/dream_ws/src/plumbing_test/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_test" TYPE FILE FILES "/home/dream/ros_study/dream_ws/src/plumbing_test/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plumbing_test" TYPE PROGRAM FILES "/home/dream/dream/dream_ws/build/plumbing_test/catkin_generated/installspace/test01_pub_twist_p.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plumbing_test" TYPE PROGRAM FILES "/home/dream/ros_study/dream_ws/build/plumbing_test/catkin_generated/installspace/test01_pub_twist_p.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plumbing_test" TYPE PROGRAM FILES "/home/dream/dream/dream_ws/build/plumbing_test/catkin_generated/installspace/test02_sub_pose_p.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/plumbing_test" TYPE PROGRAM FILES "/home/dream/ros_study/dream_ws/build/plumbing_test/catkin_generated/installspace/test02_sub_pose_p.py")
 endif()
 

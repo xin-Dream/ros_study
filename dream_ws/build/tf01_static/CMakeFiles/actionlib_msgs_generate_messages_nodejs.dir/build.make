@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dream/dream/dream_ws/src
+CMAKE_SOURCE_DIR = /home/dream/ros_study/dream_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dream/dream/dream_ws/build
+CMAKE_BINARY_DIR = /home/dream/ros_study/dream_ws/build
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build: action
 .PHONY : tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 
 tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/dream/dream/dream_ws/build/tf01_static && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/dream/ros_study/dream_ws/build/tf01_static && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/dream/dream/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/dream/dream_ws/src /home/dream/dream/dream_ws/src/tf01_static /home/dream/dream/dream_ws/build /home/dream/dream/dream_ws/build/tf01_static /home/dream/dream/dream_ws/build/tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dream/ros_study/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/ros_study/dream_ws/src /home/dream/ros_study/dream_ws/src/tf01_static /home/dream/ros_study/dream_ws/build /home/dream/ros_study/dream_ws/build/tf01_static /home/dream/ros_study/dream_ws/build/tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

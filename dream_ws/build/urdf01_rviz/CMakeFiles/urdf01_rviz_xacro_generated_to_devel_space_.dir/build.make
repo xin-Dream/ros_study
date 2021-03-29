@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dream/dream/dream_ws/src
+CMAKE_SOURCE_DIR = /home/dream/ros_study/dream_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dream/dream/dream_ws/build
+CMAKE_BINARY_DIR = /home/dream/ros_study/dream_ws/build
 
 # Utility rule file for urdf01_rviz_xacro_generated_to_devel_space_.
 
@@ -63,10 +63,10 @@ urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build: ur
 .PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build
 
 urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean:
-	cd /home/dream/dream/dream_ws/build/urdf01_rviz && $(CMAKE_COMMAND) -P CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
+	cd /home/dream/ros_study/dream_ws/build/urdf01_rviz && $(CMAKE_COMMAND) -P CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
 .PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean
 
 urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/depend:
-	cd /home/dream/dream/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/dream/dream_ws/src /home/dream/dream/dream_ws/src/urdf01_rviz /home/dream/dream/dream_ws/build /home/dream/dream/dream_ws/build/urdf01_rviz /home/dream/dream/dream_ws/build/urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dream/ros_study/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/ros_study/dream_ws/src /home/dream/ros_study/dream_ws/src/urdf01_rviz /home/dream/ros_study/dream_ws/build /home/dream/ros_study/dream_ws/build/urdf01_rviz /home/dream/ros_study/dream_ws/build/urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/depend
 

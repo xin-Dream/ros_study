@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/dream/dream/dream_ws/src/plumbing_test/src/test01_pub_twist.cpp
+/home/dream/ros_study/dream_ws/src/plumbing_test/src/test01_pub_twist.cpp
 ros/ros.h
-/home/dream/dream/dream_ws/src/plumbing_test/src/ros/ros.h
+/home/dream/ros_study/dream_ws/src/plumbing_test/src/ros/ros.h
 geometry_msgs/Twist.h
-/home/dream/dream/dream_ws/src/plumbing_test/src/geometry_msgs/Twist.h
+/home/dream/ros_study/dream_ws/src/plumbing_test/src/geometry_msgs/Twist.h
 
 /opt/ros/melodic/include/geometry_msgs/Twist.h
 string

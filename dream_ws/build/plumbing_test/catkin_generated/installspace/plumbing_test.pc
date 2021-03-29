@@ -1,4 +1,4 @@
-prefix=/home/dream/dream/dream_ws/install
+prefix=/home/dream/ros_study/dream_ws/install
 
 Name: plumbing_test
 Description: Description of plumbing_test

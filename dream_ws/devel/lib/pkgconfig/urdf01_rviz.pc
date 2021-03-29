@@ -1,4 +1,4 @@
-prefix=/home/dream/dream/dream_ws/devel
+prefix=/home/dream/ros_study/dream_ws/devel
 
 Name: urdf01_rviz
 Description: Description of urdf01_rviz

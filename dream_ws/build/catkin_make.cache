@@ -1,2 +1,2 @@
-demo01_ws:launc0h01_basic:plumbing_test:plumbingg_my:tf01_static:urdf01_rviz
--DCATKIN_DEVEL_PREFIX=/home/dream/dream/dream_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dream/dream/dream_ws/install -G Unix Makefiles
+demo01_ws:launc0h01_basic:plumbing_test:plumbingg_my:tf01_static:urdf01_rviz:urdf02_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/dream/ros_study/dream_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dream/ros_study/dream_ws/install -G Unix Makefiles

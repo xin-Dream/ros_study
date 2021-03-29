@@ -7,4 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/dream/dream/dream_ws/build'
+export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/usr/local/cuda-10.2/lib64'
+export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
+export PWD='/home/dream/ros_study/dream_ws/build'

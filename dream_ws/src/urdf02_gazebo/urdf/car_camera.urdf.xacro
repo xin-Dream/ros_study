@@ -1,14 +1,15 @@
 
 <robot name="my_camera" xmlns:xacro="http://wiki.ros.org/xacro">
-
-    <xacro:property name="camera_length" value="0.01" />
+    
+    <xacro:property name="camera_length" value="0.01" /> 
     <xacro:property name="camera_width" value="0.025" /> 
     <xacro:property name="camera_height" value="0.025" /> 
     <xacro:property name="camera_x" value="0.08" /> 
     <xacro:property name="camera_y" value="0.0" /> 
     <xacro:property name="camera_z" value="${base_link_length / 2 + camera_height / 2}" /> 
 
-    <xacro:property name="camera_m" value="0.01" /> 
+    <xacro:property name="camera_m" value="0.01" />
+
 
     <link name="camera">
         <visual>

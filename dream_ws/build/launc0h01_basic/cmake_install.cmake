@@ -1,8 +1,8 @@
-# Install script for directory: /home/dream/dream/dream_ws/src/launc0h01_basic
+# Install script for directory: /home/dream/ros_study/dream_ws/src/launc0h01_basic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dream/dream/dream_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dream/ros_study/dream_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/dream/dream_ws/build/launc0h01_basic/catkin_generated/installspace/launc0h01_basic.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/ros_study/dream_ws/build/launc0h01_basic/catkin_generated/installspace/launc0h01_basic.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launc0h01_basic/cmake" TYPE FILE FILES
-    "/home/dream/dream/dream_ws/build/launc0h01_basic/catkin_generated/installspace/launc0h01_basicConfig.cmake"
-    "/home/dream/dream/dream_ws/build/launc0h01_basic/catkin_generated/installspace/launc0h01_basicConfig-version.cmake"
+    "/home/dream/ros_study/dream_ws/build/launc0h01_basic/catkin_generated/installspace/launc0h01_basicConfig.cmake"
+    "/home/dream/ros_study/dream_ws/build/launc0h01_basic/catkin_generated/installspace/launc0h01_basicConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launc0h01_basic" TYPE FILE FILES "/home/dream/dream/dream_ws/src/launc0h01_basic/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launc0h01_basic" TYPE FILE FILES "/home/dream/ros_study/dream_ws/src/launc0h01_basic/package.xml")
 endif()
 

@@ -67,14 +67,14 @@ set(launc0h01_basic_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(launc0h01_basic_SOURCE_PREFIX /home/dream/dream/dream_ws/src/launc0h01_basic)
-  set(launc0h01_basic_DEVEL_PREFIX /home/dream/dream/dream_ws/devel)
+  set(launc0h01_basic_SOURCE_PREFIX /home/dream/ros_study/dream_ws/src/launc0h01_basic)
+  set(launc0h01_basic_DEVEL_PREFIX /home/dream/ros_study/dream_ws/devel)
   set(launc0h01_basic_INSTALL_PREFIX "")
   set(launc0h01_basic_PREFIX ${launc0h01_basic_DEVEL_PREFIX})
 else()
   set(launc0h01_basic_SOURCE_PREFIX "")
   set(launc0h01_basic_DEVEL_PREFIX "")
-  set(launc0h01_basic_INSTALL_PREFIX /home/dream/dream/dream_ws/install)
+  set(launc0h01_basic_INSTALL_PREFIX /home/dream/ros_study/dream_ws/install)
   set(launc0h01_basic_PREFIX ${launc0h01_basic_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dream/dream/dream_ws/install/lib;/home/dream/dream/dream_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/dream/ros_study/dream_ws/install/lib;/home/dream/ros_study/dream_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dream/dream/dream_ws/src
+CMAKE_SOURCE_DIR = /home/dream/ros_study/dream_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dream/dream/dream_ws/build
+CMAKE_BINARY_DIR = /home/dream/ros_study/dream_ws/build
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -63,10 +63,10 @@ demo01_ws/CMakeFiles/roscpp_generate_messages_py.dir/build: roscpp_generate_mess
 .PHONY : demo01_ws/CMakeFiles/roscpp_generate_messages_py.dir/build
 
 demo01_ws/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	cd /home/dream/dream/dream_ws/build/demo01_ws && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/dream/ros_study/dream_ws/build/demo01_ws && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : demo01_ws/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 demo01_ws/CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/dream/dream/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/dream/dream_ws/src /home/dream/dream/dream_ws/src/demo01_ws /home/dream/dream/dream_ws/build /home/dream/dream/dream_ws/build/demo01_ws /home/dream/dream/dream_ws/build/demo01_ws/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dream/ros_study/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/ros_study/dream_ws/src /home/dream/ros_study/dream_ws/src/demo01_ws /home/dream/ros_study/dream_ws/build /home/dream/ros_study/dream_ws/build/demo01_ws /home/dream/ros_study/dream_ws/build/demo01_ws/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : demo01_ws/CMakeFiles/roscpp_generate_messages_py.dir/depend
 

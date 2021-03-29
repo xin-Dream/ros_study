@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dream/dream/dream_ws/src
+CMAKE_SOURCE_DIR = /home/dream/ros_study/dream_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dream/dream/dream_ws/build
+CMAKE_BINARY_DIR = /home/dream/ros_study/dream_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ plumbingg_my/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_e
 .PHONY : plumbingg_my/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 plumbingg_my/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/dream/dream/dream_ws/build/plumbingg_my && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/dream/ros_study/dream_ws/build/plumbingg_my && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : plumbingg_my/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 plumbingg_my/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/dream/dream/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/dream/dream_ws/src /home/dream/dream/dream_ws/src/plumbingg_my /home/dream/dream/dream_ws/build /home/dream/dream/dream_ws/build/plumbingg_my /home/dream/dream/dream_ws/build/plumbingg_my/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dream/ros_study/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/ros_study/dream_ws/src /home/dream/ros_study/dream_ws/src/plumbingg_my /home/dream/ros_study/dream_ws/build /home/dream/ros_study/dream_ws/build/plumbingg_my /home/dream/ros_study/dream_ws/build/plumbingg_my/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plumbingg_my/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

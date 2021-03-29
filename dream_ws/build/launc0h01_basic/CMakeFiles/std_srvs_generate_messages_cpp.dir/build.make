@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dream/dream/dream_ws/src
+CMAKE_SOURCE_DIR = /home/dream/ros_study/dream_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dream/dream/dream_ws/build
+CMAKE_BINARY_DIR = /home/dream/ros_study/dream_ws/build
 
 # Utility rule file for std_srvs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ launc0h01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build: std_srvs_ge
 .PHONY : launc0h01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 
 launc0h01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
-	cd /home/dream/dream/dream_ws/build/launc0h01_basic && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/dream/ros_study/dream_ws/build/launc0h01_basic && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : launc0h01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
 
 launc0h01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend:
-	cd /home/dream/dream/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/dream/dream_ws/src /home/dream/dream/dream_ws/src/launc0h01_basic /home/dream/dream/dream_ws/build /home/dream/dream/dream_ws/build/launc0h01_basic /home/dream/dream/dream_ws/build/launc0h01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dream/ros_study/dream_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/ros_study/dream_ws/src /home/dream/ros_study/dream_ws/src/launc0h01_basic /home/dream/ros_study/dream_ws/build /home/dream/ros_study/dream_ws/build/launc0h01_basic /home/dream/ros_study/dream_ws/build/launc0h01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : launc0h01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
 
