@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/dream/ros_study/Burberry_ws/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/dream/ros_study/Burberry_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/dream/ros_study/Burberry_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/dream/ros_study/Burberry_ws/src:$ROS_PACKAGE_PATH"

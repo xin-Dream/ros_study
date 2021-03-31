@@ -1,2 +1,2 @@
-
+delta_III_ros
 -DCATKIN_DEVEL_PREFIX=/home/dream/ros_study/Burberry_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dream/ros_study/Burberry_ws/install -G Unix Makefiles
