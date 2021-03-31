@@ -7,6 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/usr/local/cuda-10.2/lib64'
-export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
+export CMAKE_PREFIX_PATH="/home/dream/ros_study/dream_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH='/home/dream/ros_study/dream_ws/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.2/lib64'
+export PKG_CONFIG_PATH="/home/dream/ros_study/dream_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/dream/ros_study/dream_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/dream/ros_study/dream_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/dream/ros_study/dream_ws/src:$ROS_PACKAGE_PATH"

@@ -332,6 +332,18 @@ demo01_ws_BINARY_DIR:STATIC=/home/dream/ros_study/dream_ws/build/demo01_ws
 //Value Computed by CMake
 demo01_ws_SOURCE_DIR:STATIC=/home/dream/ros_study/dream_ws/src/demo01_ws
 
+//Value Computed by CMake
+diff_robot_BINARY_DIR:STATIC=/home/dream/ros_study/dream_ws/build/diff_robot
+
+//Value Computed by CMake
+diff_robot_SOURCE_DIR:STATIC=/home/dream/ros_study/dream_ws/src/diff_robot
+
+//Value Computed by CMake
+diff_wheeled_robot_control_BINARY_DIR:STATIC=/home/dream/ros_study/dream_ws/build/diff_wheeled_robot_control
+
+//Value Computed by CMake
+diff_wheeled_robot_control_SOURCE_DIR:STATIC=/home/dream/ros_study/dream_ws/src/diff_wheeled_robot_control
+
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
 
@@ -426,6 +438,12 @@ image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
 //The directory containing a CMake configuration file for joint_limits_interface.
 joint_limits_interface_DIR:PATH=/opt/ros/melodic/share/joint_limits_interface/cmake
 
+//The directory containing a CMake configuration file for joint_state_controller.
+joint_state_controller_DIR:PATH=/opt/ros/melodic/share/joint_state_controller/cmake
+
+//The directory containing a CMake configuration file for joy.
+joy_DIR:PATH=joy_DIR-NOTFOUND
+
 //Value Computed by CMake
 launc0h01_basic_BINARY_DIR:STATIC=/home/dream/ros_study/dream_ws/build/launc0h01_basic
 
@@ -433,7 +451,7 @@ launc0h01_basic_BINARY_DIR:STATIC=/home/dream/ros_study/dream_ws/build/launc0h01
 launc0h01_basic_SOURCE_DIR:STATIC=/home/dream/ros_study/dream_ws/src/launc0h01_basic
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libtransmission_interface_loader_plugins.so
+lib:FILEPATH=/opt/ros/melodic/lib/librealtime_tools.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -677,7 +695,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
