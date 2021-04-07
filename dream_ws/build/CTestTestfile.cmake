@@ -7,6 +7,7 @@
 subdirs("gtest")
 subdirs("plumbingg_my")
 subdirs("demo01_ws")
+subdirs("rplidar_ros")
 subdirs("tf01_static")
 subdirs("launc0h01_basic")
 subdirs("plumbing_test")
