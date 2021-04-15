@@ -1,8 +1,0 @@
-prefix=/home/dream/ros_study/dream_ws/devel
-
-Name: diff_robot
-Description: Description of diff_robot
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

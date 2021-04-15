@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test01_pub_twist.dir/src/test01_pub_twist.cpp.o"
-  "/home/dream/ros_study/dream_ws/devel/lib/plumbing_test/test01_pub_twist.pdb"
   "/home/dream/ros_study/dream_ws/devel/lib/plumbing_test/test01_pub_twist"
+  "/home/dream/ros_study/dream_ws/devel/lib/plumbing_test/test01_pub_twist.pdb"
+  "CMakeFiles/test01_pub_twist.dir/src/test01_pub_twist.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
