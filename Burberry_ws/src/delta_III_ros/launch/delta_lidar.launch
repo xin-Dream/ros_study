@@ -3,4 +3,5 @@
   <param name="serial_port"         type="string" value="/dev/ttyUSB0"/>
   <param name="frame_id"            type="string" value="laser"/>
   </node>
+  <!-- <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0.065 0.0 0.245 1.57 0.0 0.0 /base_link /lidar 50" /> -->
 </launch>
