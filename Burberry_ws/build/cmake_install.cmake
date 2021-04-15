@@ -131,7 +131,12 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dream/ros_study/Burberry_ws/build/gtest/cmake_install.cmake")
+  include("/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_bridge/cmake_install.cmake")
+  include("/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_firmware/cmake_install.cmake")
+  include("/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_python/cmake_install.cmake")
+  include("/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/cmake_install.cmake")
   include("/home/dream/ros_study/Burberry_ws/build/delta_III_ros/cmake_install.cmake")
+  include("/home/dream/ros_study/Burberry_ws/build/jetsonbot_description/cmake_install.cmake")
 
 endif()
 
