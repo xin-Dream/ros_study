@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dream/ros_study/stm32_ws/install/setup.sh

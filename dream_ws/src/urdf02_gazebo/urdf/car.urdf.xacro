@@ -11,6 +11,4 @@
     <xacro:include filename="gazebo/kinect.xacro" />
 
 
-
-
 </robot>
