@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/opt/ros/melodic/include/**",
+                "/home/dream/ros_study/dream_ws/src/demo01_ws/include/**",
+                "/home/dream/ros_study/dream_ws/src/launc0h01_basic/include/**",
+                "/home/dream/ros_study/dream_ws/src/plumbing_test/include/**",
+                "/home/dream/ros_study/dream_ws/src/tf01_static/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
