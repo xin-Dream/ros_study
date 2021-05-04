@@ -1,8 +1,0 @@
-prefix=/home/dream/ros_study/Burberry_ws/install
-
-Name: jetsonbot_nav
-Description: Description of jetsonbot_nav
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
