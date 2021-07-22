@@ -1,0 +1,8 @@
+prefix=/home/dream/ros_study/Burberry_ws/install
+
+Name: map_scan
+Description: Description of map_scan
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,12 @@
+<launch>
+
+    <include file="$(find jetsonbot_description)/launch/jetsonbot_display.launch" />
+
+    <!-- 启动SLAM节点 -->
+    <include file="$(find map_scan)/launch/001-gmapping.launch" />
+    <!-- 启动AMCL节点 -->
+    <!-- <include file="$(find map_scan)/launch/002-amcl.launch" /> -->
+    <!-- 运行move_base节点 -->
+    <include file="$(find map_scan)/launch/003-movebase.launch" />
+
+</launch>
