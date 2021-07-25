@@ -1,2 +1,0 @@
-
--DCATKIN_DEVEL_PREFIX=/home/dream/ros_study/stm32_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dream/ros_study/stm32_ws/install -G Unix Makefiles
