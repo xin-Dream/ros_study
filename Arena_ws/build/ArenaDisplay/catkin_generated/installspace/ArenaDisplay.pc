@@ -1,0 +1,8 @@
+prefix=/home/dream/ros_study/Arena_ws/install
+
+Name: ArenaDisplay
+Description: Description of ArenaDisplay
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

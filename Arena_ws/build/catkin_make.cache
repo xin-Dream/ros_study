@@ -1,0 +1,2 @@
+display_arena
+-DCATKIN_DEVEL_PREFIX=/home/dream/ros_study/Arena_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dream/ros_study/Arena_ws/install -G Unix Makefiles

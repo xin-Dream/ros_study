@@ -135,7 +135,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/dream/ros_study/demo02_ws/build/plumbing_param_server/cmake_install.cmake")
   include("/home/dream/ros_study/demo02_ws/build/plumbing_pub_sub/cmake_install.cmake")
   include("/home/dream/ros_study/demo02_ws/build/plumbing_server_client/cmake_install.cmake")
+  include("/home/dream/ros_study/demo02_ws/build/tf01_static/cmake_install.cmake")
   include("/home/dream/ros_study/demo02_ws/build/plumbing_test/cmake_install.cmake")
+  include("/home/dream/ros_study/demo02_ws/build/tf02_dynamic/cmake_install.cmake")
+  include("/home/dream/ros_study/demo02_ws/build/urdf01_rviz/cmake_install.cmake")
 
 endif()
 

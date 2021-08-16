@@ -1,0 +1,8 @@
+prefix=/home/dream/ros_study/Arena_ws/install
+
+Name: displayArena
+Description: Description of displayArena
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
