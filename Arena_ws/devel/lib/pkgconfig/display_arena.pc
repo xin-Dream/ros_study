@@ -1,8 +1,0 @@
-prefix=/home/dream/ros_study/Arena_ws/devel
-
-Name: display_arena
-Description: Description of display_arena
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
