@@ -1,4 +1,4 @@
-prefix=/home/dream/ros_study/Burberry_ws/install
+prefix=/home/dream/001-data/003-ROS/ros_study/Burberry_ws/install
 
 Name: ros_arduino_msgs
 Description: Description of ros_arduino_msgs

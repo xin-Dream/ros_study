@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "launc0h01_basic"
-PROJECT_SPACE_DIR = "/home/dream/ros_study/dream_ws/devel"
+PROJECT_SPACE_DIR = "/home/dream/001-data/003-ROS/ros_study/dream_ws/devel"
 PROJECT_VERSION = "0.0.0"

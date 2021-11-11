@@ -67,14 +67,14 @@ set(demo01_ws_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(demo01_ws_SOURCE_PREFIX /home/dream/ros_study/dream_ws/src/demo01_ws)
-  set(demo01_ws_DEVEL_PREFIX /home/dream/ros_study/dream_ws/devel)
+  set(demo01_ws_SOURCE_PREFIX /home/dream/001-data/003-ROS/ros_study/dream_ws/src/demo01_ws)
+  set(demo01_ws_DEVEL_PREFIX /home/dream/001-data/003-ROS/ros_study/dream_ws/devel)
   set(demo01_ws_INSTALL_PREFIX "")
   set(demo01_ws_PREFIX ${demo01_ws_DEVEL_PREFIX})
 else()
   set(demo01_ws_SOURCE_PREFIX "")
   set(demo01_ws_DEVEL_PREFIX "")
-  set(demo01_ws_INSTALL_PREFIX /home/dream/ros_study/dream_ws/install)
+  set(demo01_ws_INSTALL_PREFIX /home/dream/001-data/003-ROS/ros_study/dream_ws/install)
   set(demo01_ws_PREFIX ${demo01_ws_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dream/ros_study/dream_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dream/001-data/003-ROS/ros_study/dream_ws/install/lib;/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/lib;/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

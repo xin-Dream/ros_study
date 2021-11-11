@@ -1,8 +1,8 @@
-# Install script for directory: /home/dream/ros_study/dream_ws/src/demo01_ws
+# Install script for directory: /home/dream/001-data/003-ROS/ros_study/dream_ws/src/demo01_ws
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dream/ros_study/dream_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dream/001-data/003-ROS/ros_study/dream_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/ros_study/dream_ws/build/demo01_ws/catkin_generated/installspace/demo01_ws.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/dream_ws/build/demo01_ws/catkin_generated/installspace/demo01_ws.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo01_ws/cmake" TYPE FILE FILES
-    "/home/dream/ros_study/dream_ws/build/demo01_ws/catkin_generated/installspace/demo01_wsConfig.cmake"
-    "/home/dream/ros_study/dream_ws/build/demo01_ws/catkin_generated/installspace/demo01_wsConfig-version.cmake"
+    "/home/dream/001-data/003-ROS/ros_study/dream_ws/build/demo01_ws/catkin_generated/installspace/demo01_wsConfig.cmake"
+    "/home/dream/001-data/003-ROS/ros_study/dream_ws/build/demo01_ws/catkin_generated/installspace/demo01_wsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo01_ws" TYPE FILE FILES "/home/dream/ros_study/dream_ws/src/demo01_ws/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo01_ws" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/dream_ws/src/demo01_ws/package.xml")
 endif()
 

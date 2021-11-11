@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dream/ros_study/Burberry_ws/src
+CMAKE_SOURCE_DIR = /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dream/ros_study/Burberry_ws/build
+CMAKE_BINARY_DIR = /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -63,10 +63,10 @@ delta_III_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build: roscpp_generate
 .PHONY : delta_III_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
 
 delta_III_ros/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	cd /home/dream/ros_study/Burberry_ws/build/delta_III_ros && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/delta_III_ros && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : delta_III_ros/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 delta_III_ros/CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/dream/ros_study/Burberry_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/ros_study/Burberry_ws/src /home/dream/ros_study/Burberry_ws/src/delta_III_ros /home/dream/ros_study/Burberry_ws/build /home/dream/ros_study/Burberry_ws/build/delta_III_ros /home/dream/ros_study/Burberry_ws/build/delta_III_ros/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/delta_III_ros /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/delta_III_ros/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : delta_III_ros/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

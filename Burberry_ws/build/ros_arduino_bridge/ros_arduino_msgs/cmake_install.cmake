@@ -1,8 +1,8 @@
-# Install script for directory: /home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs
+# Install script for directory: /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dream/ros_study/Burberry_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,70 +39,70 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs/msg" TYPE FILE FILES
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/AnalogFloat.msg"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/Analog.msg"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/SensorState.msg"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/AnalogFloat.msg"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/Analog.msg"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/msg/SensorState.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs/srv" TYPE FILE FILES
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalSetDirection.srv"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalWrite.srv"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalRead.srv"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/ServoRead.srv"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/ServoWrite.srv"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/AnalogWrite.srv"
-    "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/AnalogRead.srv"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalSetDirection.srv"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalWrite.srv"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalRead.srv"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/ServoRead.srv"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/ServoWrite.srv"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/AnalogWrite.srv"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/srv/AnalogRead.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs/cmake" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs/cmake" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dream/ros_study/Burberry_ws/devel/include/ros_arduino_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/include/ros_arduino_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/dream/ros_study/Burberry_ws/devel/share/roseus/ros/ros_arduino_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/share/roseus/ros/ros_arduino_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/dream/ros_study/Burberry_ws/devel/share/common-lisp/ros/ros_arduino_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/share/common-lisp/ros/ros_arduino_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/dream/ros_study/Burberry_ws/devel/share/gennodejs/ros/ros_arduino_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/share/gennodejs/ros/ros_arduino_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/dream/ros_study/Burberry_ws/devel/lib/python2.7/dist-packages/ros_arduino_msgs")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/lib/python2.7/dist-packages/ros_arduino_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/dream/ros_study/Burberry_ws/devel/lib/python2.7/dist-packages/ros_arduino_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/lib/python2.7/dist-packages/ros_arduino_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs/cmake" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs/cmake" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs/cmake" TYPE FILE FILES
-    "/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgsConfig.cmake"
-    "/home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgsConfig-version.cmake"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgsConfig.cmake"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/catkin_generated/installspace/ros_arduino_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_msgs" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs/package.xml")
 endif()
 

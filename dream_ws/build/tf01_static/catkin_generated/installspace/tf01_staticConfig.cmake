@@ -67,14 +67,14 @@ set(tf01_static_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf01_static_SOURCE_PREFIX /home/dream/ros_study/dream_ws/src/tf01_static)
-  set(tf01_static_DEVEL_PREFIX /home/dream/ros_study/dream_ws/devel)
+  set(tf01_static_SOURCE_PREFIX /home/dream/001-data/003-ROS/ros_study/dream_ws/src/tf01_static)
+  set(tf01_static_DEVEL_PREFIX /home/dream/001-data/003-ROS/ros_study/dream_ws/devel)
   set(tf01_static_INSTALL_PREFIX "")
   set(tf01_static_PREFIX ${tf01_static_DEVEL_PREFIX})
 else()
   set(tf01_static_SOURCE_PREFIX "")
   set(tf01_static_DEVEL_PREFIX "")
-  set(tf01_static_INSTALL_PREFIX /home/dream/ros_study/dream_ws/install)
+  set(tf01_static_INSTALL_PREFIX /home/dream/001-data/003-ROS/ros_study/dream_ws/install)
   set(tf01_static_PREFIX ${tf01_static_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dream/ros_study/dream_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dream/001-data/003-ROS/ros_study/dream_ws/install/lib;/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/lib;/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

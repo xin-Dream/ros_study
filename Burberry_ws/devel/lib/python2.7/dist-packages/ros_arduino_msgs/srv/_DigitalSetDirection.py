@@ -64,7 +64,8 @@ bool direction
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       _x = self
@@ -95,7 +96,8 @@ bool direction
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       _x = self
@@ -173,7 +175,8 @@ class DigitalSetDirectionResponse(genpy.Message):
     unpack serialized message in str into this message instance
     :param str: byte array of serialized message, ``str``
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       return self
@@ -198,7 +201,8 @@ class DigitalSetDirectionResponse(genpy.Message):
     :param str: byte array of serialized message, ``str``
     :param numpy: numpy python module
     """
-    codecs.lookup_error("rosmsg").msg_type = self._type
+    if python3:
+      codecs.lookup_error("rosmsg").msg_type = self._type
     try:
       end = 0
       return self

@@ -1,4 +1,4 @@
-prefix=/home/dream/ros_study/dream_ws/devel
+prefix=/home/dream/001-data/003-ROS/ros_study/dream_ws/devel
 
 Name: urdf02_gazebo
 Description: Description of urdf02_gazebo

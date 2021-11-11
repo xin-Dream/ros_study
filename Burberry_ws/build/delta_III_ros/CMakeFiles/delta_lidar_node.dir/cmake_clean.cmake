@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarPacketSender.cpp.o"
   "CMakeFiles/delta_lidar_node.dir/sdk/src/CSerialConnection.cpp.o"
   "CMakeFiles/delta_lidar_node.dir/sdk/src/CTime.cpp.o"
-  "/home/dream/ros_study/Burberry_ws/devel/lib/delta_lidar/delta_lidar_node.pdb"
-  "/home/dream/ros_study/Burberry_ws/devel/lib/delta_lidar/delta_lidar_node"
+  "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/lib/delta_lidar/delta_lidar_node.pdb"
+  "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/lib/delta_lidar/delta_lidar_node"
 )
 
 # Per-language clean rules from dependency scanning.

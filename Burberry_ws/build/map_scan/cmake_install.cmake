@@ -1,8 +1,8 @@
-# Install script for directory: /home/dream/ros_study/Burberry_ws/src/map_scan
+# Install script for directory: /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/map_scan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dream/ros_study/Burberry_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/build/map_scan/catkin_generated/installspace/map_scan.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/map_scan/catkin_generated/installspace/map_scan.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_scan/cmake" TYPE FILE FILES
-    "/home/dream/ros_study/Burberry_ws/build/map_scan/catkin_generated/installspace/map_scanConfig.cmake"
-    "/home/dream/ros_study/Burberry_ws/build/map_scan/catkin_generated/installspace/map_scanConfig-version.cmake"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/map_scan/catkin_generated/installspace/map_scanConfig.cmake"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/map_scan/catkin_generated/installspace/map_scanConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_scan" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/src/map_scan/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_scan" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/map_scan/package.xml")
 endif()
 

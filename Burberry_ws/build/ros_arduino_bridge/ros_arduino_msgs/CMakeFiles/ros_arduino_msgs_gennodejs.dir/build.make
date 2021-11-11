@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dream/ros_study/Burberry_ws/src
+CMAKE_SOURCE_DIR = /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dream/ros_study/Burberry_ws/build
+CMAKE_BINARY_DIR = /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build
 
 # Utility rule file for ros_arduino_msgs_gennodejs.
 
@@ -63,10 +63,10 @@ ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gennodejs.dir/bu
 .PHONY : ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gennodejs.dir/build
 
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gennodejs.dir/clean:
-	cd /home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs && $(CMAKE_COMMAND) -P CMakeFiles/ros_arduino_msgs_gennodejs.dir/cmake_clean.cmake
+	cd /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs && $(CMAKE_COMMAND) -P CMakeFiles/ros_arduino_msgs_gennodejs.dir/cmake_clean.cmake
 .PHONY : ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gennodejs.dir/clean
 
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gennodejs.dir/depend:
-	cd /home/dream/ros_study/Burberry_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/ros_study/Burberry_ws/src /home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs /home/dream/ros_study/Burberry_ws/build /home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs /home/dream/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_msgs /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs /home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gennodejs.dir/depend
 

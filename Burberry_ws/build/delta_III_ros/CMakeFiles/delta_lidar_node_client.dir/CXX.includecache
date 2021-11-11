@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/dream/ros_study/Burberry_ws/src/delta_III_ros/src/client.cpp
+/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros/src/client.cpp
 ros/ros.h
-/home/dream/ros_study/Burberry_ws/src/delta_III_ros/src/ros/ros.h
+/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/dream/ros_study/Burberry_ws/src/delta_III_ros/src/sensor_msgs/LaserScan.h
+/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros/src/sensor_msgs/LaserScan.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

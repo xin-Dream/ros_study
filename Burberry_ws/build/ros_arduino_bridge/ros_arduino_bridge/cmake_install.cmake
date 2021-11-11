@@ -1,8 +1,8 @@
-# Install script for directory: /home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_bridge
+# Install script for directory: /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_bridge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dream/ros_study/Burberry_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_bridge" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_bridge/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_arduino_bridge" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/ros_arduino_bridge/ros_arduino_bridge/package.xml")
 endif()
 

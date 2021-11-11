@@ -1,4 +1,4 @@
-prefix=/home/dream/ros_study/dream_ws/install
+prefix=/home/dream/001-data/003-ROS/ros_study/dream_ws/install
 
 Name: launc0h01_basic
 Description: Description of launc0h01_basic

@@ -1,8 +1,8 @@
-# Install script for directory: /home/dream/ros_study/Burberry_ws/src/delta_III_ros
+# Install script for directory: /home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dream/ros_study/Burberry_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/build/delta_III_ros/catkin_generated/installspace/delta_lidar.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/delta_III_ros/catkin_generated/installspace/delta_lidar.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/delta_lidar/cmake" TYPE FILE FILES
-    "/home/dream/ros_study/Burberry_ws/build/delta_III_ros/catkin_generated/installspace/delta_lidarConfig.cmake"
-    "/home/dream/ros_study/Burberry_ws/build/delta_III_ros/catkin_generated/installspace/delta_lidarConfig-version.cmake"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/delta_III_ros/catkin_generated/installspace/delta_lidarConfig.cmake"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/build/delta_III_ros/catkin_generated/installspace/delta_lidarConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/delta_lidar" TYPE FILE FILES "/home/dream/ros_study/Burberry_ws/src/delta_III_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/delta_lidar" TYPE FILE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/delta_lidar/delta_lidar_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/delta_lidar" TYPE EXECUTABLE FILES "/home/dream/ros_study/Burberry_ws/devel/lib/delta_lidar/delta_lidar_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/delta_lidar" TYPE EXECUTABLE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/lib/delta_lidar/delta_lidar_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/delta_lidar/delta_lidar_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/delta_lidar/delta_lidar_node")
     file(RPATH_CHANGE
@@ -79,7 +79,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/delta_lidar/delta_lidar_node_client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/delta_lidar" TYPE EXECUTABLE FILES "/home/dream/ros_study/Burberry_ws/devel/lib/delta_lidar/delta_lidar_node_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/delta_lidar" TYPE EXECUTABLE FILES "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/devel/lib/delta_lidar/delta_lidar_node_client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/delta_lidar/delta_lidar_node_client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/delta_lidar/delta_lidar_node_client")
     file(RPATH_CHANGE
@@ -94,9 +94,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/delta_lidar" TYPE DIRECTORY FILES
-    "/home/dream/ros_study/Burberry_ws/src/delta_III_ros/launch"
-    "/home/dream/ros_study/Burberry_ws/src/delta_III_ros/rviz"
-    "/home/dream/ros_study/Burberry_ws/src/delta_III_ros/sdk"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros/launch"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros/rviz"
+    "/home/dream/001-data/003-ROS/ros_study/Burberry_ws/src/delta_III_ros/sdk"
     USE_SOURCE_PERMISSIONS)
 endif()
 
